@@ -7,8 +7,8 @@ import ToggleSwitch from './ToggleSwitch'
 const FormLogin = () => {
   return (
     <form>
-        <InputGroup name="login" label="login" type="email" placeholder="Digite seu e-mail" />
-        <InputGroup name="senha" label="senha" type="password" placeholder="Digite sua senha" />
+        <InputGroup name="login" label="Login" type="email" placeholder="Digite seu e-mail" />
+        <InputGroup name="senha" label="Senha" type="password" placeholder="Digite sua senha" />
         <div className="lembrar">
           <div className="lembrar-me">
             <ToggleSwitch />
