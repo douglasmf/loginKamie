@@ -1,0 +1,40 @@
+@use 'variaveis'
+
+button
+    height: 48px
+    border-radius: 6px
+    border: none
+    margin-top: 8%
+@media screen and (min-width: 768px) and (max-width: 991px)
+    button
+        margin-top: 2%
+
+.entrar
+    background-color: variaveis.$blue
+    color: variaveis.$white
+    font-size: variaveis.$text-md
+    font-weight: bold
+    transition: .8s
+    
+
+    &:hover
+        background-color: variaveis.$blue-hover
+
+.entrar-google
+    background-color: variaveis.$black-700
+    color: variaveis.$white
+    font-weight: bold
+    transition: .8s
+    margin-top: 8%
+    padding-left: 2%
+    &:hover
+        background-color: variaveis.$black-900
+    @media screen and (max-width: 991px)
+        .entrar-google
+            margin-top: 2%
+
+.iconGoogle
+    margin-right: 2%
+    width: 20px
+    height: 21px
+

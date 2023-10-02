@@ -1,0 +1,21 @@
+@use 'variaveis'
+
+.inputGroup
+    display: flex
+    flex-direction: column
+
+    label
+        font-weight: variaveis.$fw-light
+        color: variaveis.$black-800
+        margin: 4% 0 1% 1rem
+    
+    input
+        background-color: variaveis.$black-50
+        border-radius: 6px
+        padding: 1.2rem
+        border: none
+
+    &::placeholder
+        font-size: variaveis.$text-md
+        color: variaveis.$black-100
+

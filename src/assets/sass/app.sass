@@ -1,0 +1,47 @@
+@use 'variaveis'
+
+*
+    font-family: variaveis.$font-text
+    font-size: variaveis.$text-sm
+
+body
+    height: 100vh
+    width: 100vw
+    overflow-x: hidden
+
+.text
+    color: variaveis.$black-900
+
+.link
+    color: variaveis.$blue
+    text-decoration: none
+
+    &:hover
+        color: variaveis.$blue-hover
+
+.app
+    flex-direction: column
+    
+
+    .interface
+        padding: 0px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        overflow-y: hidden 
+        height: 100vh
+@media screen and (min-width: 992px)
+    body
+        overflow-y: hidden
+        .banner
+            height: 102vh
+        
+
+        
+
+
+
+
+
+
+    

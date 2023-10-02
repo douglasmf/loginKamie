@@ -1,0 +1,27 @@
+@use 'variaveis'
+
+form
+    display: flex
+    flex-direction: column
+
+    .lembrar 
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        margin-top: 8%
+    @media screen and (min-width: 768px) and (max-width: 991px)
+        .lembrar
+            margin-top: 2%
+    
+        .lembrar-me
+            width: 120px
+            display: flex
+            flex-direction: row
+
+            span
+                margin-left: 10%
+                
+.margin-r
+    margin-right: 20%
+
+    

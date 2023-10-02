@@ -1,0 +1,32 @@
+@use 'variaveis'
+
+
+.switch
+    position: relative
+    background-color: variaveis.$black-100
+    width: 40px
+    height: 20px
+    border-radius: 40px
+    display: flex
+    align-items: center
+    padding: 0% 1%
+    transition: all .5s ease-in-out
+    cursor: pointer
+
+    .slider
+        position: absolute
+        background-color: #fff
+        border-radius: 50%
+        width: 16px
+        height: 16px
+        transition: all .5s ease-in-out
+
+
+.chk
+    display: none
+
+    &:checked ~ .switch
+        background-color: variaveis.$blue
+
+    &:checked ~ .switch .slider
+        transform: translateX(18px)
